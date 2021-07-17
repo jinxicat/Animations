@@ -3,7 +3,7 @@ from scipy import ndimage
 
 class Table():
 	def __init__(self):
-		self.state = mping.imread('/home/chyper/Desktop/amination/table.png')
+		self.state = mping.imread('/Desktop/amination/table.png')
 		self.state = ndimage.rotate(self.state, -20, reshape=False)
 	
 	def update_state(self,table_angle_profile,table_xpos_profile,j):
