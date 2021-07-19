@@ -1,12 +1,21 @@
-# animations
-
 "gridsearch_optimized_fft_extrapolation.py"
 
-Overview:
-  -basic/novice approach to gridsearch optimization
+  Overview:
+    -basic/novice approach to gridsearch optimization
 
-  -Minimizes the MSE from an fft extrapolation up to the current minute, then uses the optimized parameters to generate an extraploation into the future by       optimized variable "FUTURE_PERIOD_PREDICT"
-  
-Possible Uses:
-  -Use extrapolation techniques to remove time-gaps in large timeseires data sets. 
-  -Planning to use this technique for generating a FFT extrapolation sequence as a Deep Learning feature column
+  Possible Uses:
+    -Use extrapolation techniques to remove time-gaps in large timeseires data sets. 
+    -FFT extrapolation sequence as a Deep Learning feature column
+
+
+"optimize.py"
+
+  Overview:
+    -Hyperopt optimization script
+    -Bayesian optimization for multidimensional parameter spaces
+    -Minimize the loss of the "Objective()" function 
+
+  Uses:
+    -Optimizing simulations
+    -Optimize any function from the current context
+    -Must create your own "Objective()" function
