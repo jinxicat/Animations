@@ -8,8 +8,8 @@ import time
 
 foot = foot.Foot()
 table = table.Table()
-axis = mping.imread('/home/chyper/Desktop/amination/axis.png')
-force = mping.imread('/home/chyper/Desktop/amination/force.png')
+axis = mping.imread('/Desktop/amination/axis.png')
+force = mping.imread('/Desktop/amination/force.png')
 
 foot_angle_profile = [0,0,0,0,0,0,-6,5,5,5,5,5,5,5,5,5,-5,-3,0,-3,-3,-3,-3,-3,-3,-3,-5,-5,0,0]
 foot_ypos_profile = [-3,-3,-3,-3,-3,-6,-6,0,0,0,0,0,0,0,0,0,3,5,8,0,1,1,1,1,1,1,1,1,1,2]
